@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #2f363e;
+}
+.container{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    background-color: #2f363e;
+    box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.25),
+    10px 10px 70px rgba(0,0,0,0.25),
+    inset 2px 8px 12px rgba(0,0, 0, 0.5),
+    inset 7px 12px 15px rgba(255,255, 255, 0.2),
+    inset -5px -5px 25px rgba(0,0, 0, 0.75);
+  
+    
+    border-radius: 15px;
+     ;
+}
+h2{
+    font-size: 20px;
+    color: rgb(238, 141, 15);
+    box-shadow: 1px 3px 12px black,10px 10px 70px rgba(0,0,0,0.25),
+    inset 2px 8px 12px rgba(128, 111, 75, 0.5),
+    inset 7px 12px 15px rgba(141, 111, 56, 0.2),
+    inset -5px -5px 25px rgba(12, 10, 10, 0.75);;
+    display: inline-block;
+    border-radius: 5px;
+    width: 110px;
+}
+.input-box{
+    padding: 3px;
+    margin: 5px;
+    color: rgb(192, 184, 161);
+}
+.name{
+    display: inline-block;
+    box-shadow: 1px 3px 6px black ,10px 10px 70px rgba(0,0,0,0.25),
+    inset 2px 8px 12px rgba(128, 111, 75, 0.5),
+    inset 7px 12px 15px rgba(141, 111, 56, 0.2),
+    inset -5px -5px 25px rgba(12, 10, 10, 0.75);
+    border-radius: 7px;
+    padding: 3px;
+    margin-right: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.forget{
+    padding: 5px;
+}
+.checkbox{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+    box-shadow: 2px 2px 6.5px black,10px 10px 70px rgba(0,0,0,0.25),
+    inset 2px 8px 12px rgba(128, 111, 75, 0.5),
+    inset 7px 12px 15px rgba(141, 111, 56, 0.2),
+    inset -5px -5px 25px rgba(12, 10, 10, 0.75);;
+    border-radius: 6px;
+    color: rgb(224, 189, 94);
+    width: 110px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: -10px;
+}
+.check-box{
+    display: inline-block;
+}
+.box{
+    margin: 3px;
+}
+.icon{
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 3px 1px 5px black;
+    background-color: rgb(72, 57, 17);
+}
+input{
+    border-radius: 10px;
+    height: 25px;
+    background-color: antiquewhite;
+    box-shadow: 11px 1px 11px rgba(78, 59, 59, 0.25),;
+  }
+.submit-box{
+    display: block;
+}
+.submit-button{
+    width: 146px;
+    height: 30px;
+    margin: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit-button:hover {
+    background-color: rgb(184, 164, 105);
+    transform: scale(1.05);
+}
+.forget a{
+    text-decoration: none;
+    color:rgb(211, 184, 102);
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 3px 3px 8px black,10px 10px 70px rgba(0,0,0,0.25),
+    inset 2px 8px 12px rgba(128, 111, 75, 0.5),
+    inset 7px 12px 15px rgba(141, 111, 56, 0.2),
+    inset -5px -5px 25px rgba(12, 10, 10, 0.75);;
+    border-radius: 5px;
+    padding: 2px;
+    outline: 3px;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
